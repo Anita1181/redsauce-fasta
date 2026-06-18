@@ -1,4 +1,4 @@
-# RedSauce FASTA - sequence analyser for .fasta/.fa files (python command-line tool)
+# RedSauce FASTA - Sequence Analyser for .fasta/.fa Files
 
 It reports basic sequence statistics, finds open reading frames (ORFs), and detects repeated subsequences — built and tested against the *Enterobacteria phage lambda* genome.
 
