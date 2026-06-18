@@ -48,24 +48,25 @@ if __name__ == "__main__":
 
 ## Example Output
 
-Running the script against the included lambda phage genome (a single 48,502 bp sequence) produces output like:
+### Running the script against the included lambda phage genome (a single 48,502 bp sequence) produces output like:
 
-*Longest seq length: 48502*
-*Number of longest seqs: 1*
-  *ID: gi|9626243|ref|NC_001416.1|*
+Longest seq length: 48502
+Number of longest seqs: 1
+ - ID: gi|9626243|ref|NC_001416.1|
 
-*Shortest seq length: 48502*
-*Number of shortest seqs: 1*
-  *ID: gi|9626243|ref|NC_001416.1|*
+Shortest seq length: 48502
+Number of shortest seqs: 1
+ - ID: gi|9626243|ref|NC_001416.1|
+Reading Frame: 1
 
-*Reading Frame: 1
-  Longest ORF in file: 3399 bp*
-    *Sequence ID: gi|9626243|ref|NC_001416.1|
-  Start position: 15505
-  ORF: ATGGGTAAAGGAAGCAGT...*
+Longest ORF in file: 3399 bp
+ - Sequence ID: gi|9626243|ref|NC_001416.1|
+ - Start position: 15505
+ - ORF: ATGGGTAAAGGAAGCAGT...
 
-*Repeats of length 15:
-  CATGACGGAGGATGA: 2
-Most frequent: CATGACGGAGGATGA (2 times)*
+Repeats of length 15:
+CATGACGGAGGATGA: 2
 
-**Note:** the lambda genome FASTA file contains only one sequence record, so the longest and shortest lengths being identical is expected - not a bug.
+Most frequent: CATGACGGAGGATGA (2 times)
+
+### Note: the lambda genome FASTA file contains only one sequence record, so the longest and shortest lengths being identical is expected - not a bug.
